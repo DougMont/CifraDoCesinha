@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Cifra de Cezar / Base64</title>
+      <title>Cifra de Cezar / Base64</title>
 </head>
 <body>
     <header> <h1>SEGREDO!</h1>   </header>
@@ -27,10 +26,15 @@
                     <option value="cifraCesar">Cifra de César</option>
                 </select>
 
+                <div id="incremento">
+                    <label for="mensagem">Digite logo abaixo</label><br>
+                    <input type="number" name="mensagem" id="mensagem" placeholder="Digite..."><br>
 
-                <label for="numeroCesar" class="incremento">Diga a mudança para codificar</label>
-                <input type="number" id="numeroCesar" ><br>
+                    <label for="numeroCesar"></label><br>
+                <input type="number" name="mensagem" id="numeroCesar" placeholder="Digite..."><br>
 
+                    
+                </div>
 
                 <label class="escolha">Escolha a baixo</label><br><br>
 
@@ -48,9 +52,11 @@
                     <p class="pMensagem"></p>
                 </div>
 
-                <input type="submit" value="Codificar" id="submit">
-            </form>
+                <input type="submit" value="Codificar" id="submit"><br>
 
+                <script src="script.js"></script>
+            </form>
+            
             <div class="footerContainer">
               <a>&copy; Douglas Monteiro - 2022</a>
             </div>
@@ -59,6 +65,8 @@
     </main>
     <footer>
     </footer>
+
+    
     
 </body>
 </html>

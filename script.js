@@ -19,45 +19,7 @@ const quebraDeLinhaDepois = () => {
     }
 }
 
-// //--------minha base de sempre---------------
 
-// function cifraComCifraDeCesar( deslocamento, mensagem ){
-
-//     var numReceb = 0;
-//     var mensagemEncriptada = "";
-
-//     for ( var i = 0; i < mensagem.length; i++){
-
-//         numReceb = mensagem[i].charCodeAt();
-//         mensagemEncriptada += String.fromCharCode(numReceb + deslocamento);
-
-//     }
-//     return mensagemEncriptada;
-// }
-
-// function decifraCifraDeCesar( deslocamento, mensagemCifrada )
-// {
-
-//     var numReceb = 0;
-//     var mensagemDecifrada = "";
-
-//     for ( var i = 0; i < mensagemCifrada.length; i++ ){
-
-//         numReceb = mensagemCifrada[i].charCodeAt();
-//         mensagemDecifrada += String.fromCharCode(numReceb - deslocamento);
-//     }
-
-//     return mensagemDecifrada;
-
-// }
-
-// var qualquerCoisa = prompt("escreva algo em maiusculo");
-
-// var qualquerCoisa2 = qualquerCoisa;
-
-// oqueVaiParecerEscrito(cifraComCifraDeCesar( 7, qualquerCoisa));
-// linhaDeSeparacao()
-// oqueVaiParecerEscrito(decifraCifraDeCesar( 0, qualquerCoisa2));
 
 var nome = prompt("ESCREVA ALGO!");
 var deslocamento = 1;

@@ -4,8 +4,8 @@ body{
   }
   
   header{
-      background-color: #272727;
-      color: rgb(255, 218, 7);
+      background-color: #ff0000;
+      color: rgb(247, 252, 0);
       width: 60%;
       height: 5%;
       text-align: center;
@@ -35,7 +35,7 @@ body{
       width: 100%;
       text-align: center;
       color: rgb(255, 255, 255);
-      background-color: #ffee00 ;
+      background-color: #f7f200 ;
       font-family: 'Share Tech', sans-serif;
       font-size: larger;
       border-radius: 50px ;
@@ -62,9 +62,9 @@ body{
       width: 75%px;
   }
   
-  .incremento{
+  #incremento{
       margin: 20px;
-      display: none;
+      display: block;
   }
   
   #numeroCesar{
